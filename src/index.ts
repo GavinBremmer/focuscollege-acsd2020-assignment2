@@ -16,7 +16,7 @@ yargs.command(
 
     // yargs.command paramater #2
     // describe the command so that the --help flag is helpful
-    'Calculate the number of studs required to stick frame a house for Gerald',
+    "Calculate the number of 2x4's and 4x4's required to frame a house",
 
     // yargs.command paramater #3
     // define the parameters we need for our command
@@ -35,7 +35,7 @@ yargs.command(
             alias: 'w',
 
             // this adds the description for the --help flag
-            description: 'The width of the house'
+            description: 'The width of the house in inches'
 
         },
 
@@ -44,7 +44,7 @@ yargs.command(
         length: {
             type: 'number',
             alias: 'l',
-            description: 'The length of the house'
+            description: 'The length of the house in inches'
         }
 
     },
