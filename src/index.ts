@@ -60,8 +60,9 @@ yargs.command(
         // This is where you write your application with access to the command line arguments  |
         // ----------------------------------------------------------------------------------- |
         // inspect the output to infer how you might access the arguments
-        console.log("args", args )
+
         let houselength:number=Number(args.length),housewidth:number=Number(args.width)
+        
 
 
     }
