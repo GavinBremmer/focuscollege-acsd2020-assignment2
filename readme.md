@@ -1,22 +1,19 @@
-# Focus College ACSD Assignment 2
+# Gerald's Contracting Application
 
-This respository is intended for the use of Focus College Students enrolled in the 
-Advanced Certificate of Software Development located in Kelowna, BC and Surrey, BC.
+To use this application, please follow these instructions:
 
----
+1. In bash, run the following command to clone the application reository:
+```
+git clone git@github.com:GavinBremmer/focuscollege-acsd2020-assignment2.git [Gerald's Contracting Applicaiton]
+```
+2. In bash, use the cd command to navigate into the directory you have just created and cloned into, it will be named Gerald's Contracting Application
 
-You can remove everything below the above line once you're ready to edit this file.
-
-## Getting Started
-
-Please read the [Assignment Requirements](./assignment/assignment.md).
-
-## Deadline for Submissions
-
-The deadline for this assignment is 5PM on TUESDAY SEPTEMBER 15th, 2020.
-
-## Notes
-
-This is a PUBLIC repository attached to your github account and something that you can demonstrate to potential employers. 
-Take care to ensure professionalism for both you and your team's sake. This will be the first entry into your professional
-portfolio.
+3. In bash, run the following command to ensure you are on the stable master branch and not the unstable development branch
+```
+git checkout master
+```
+4. In bash, run the tsc command to compile the program and enter the command parameters as follows
+```
+npm start --calc-wood-needed --width [the house' width in feet] --length [the house' length in feet]
+```
+Note that -w and -l can be used in place of --width and --length. --help can also be used for a short explanation of the --calc-wood-needed command.
